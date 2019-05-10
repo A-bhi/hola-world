@@ -31,6 +31,7 @@
     color: black; 
     margin-left: 100px;  
     font-family: cursive;
+    background-color: #fff;
     }
     .header{
     border: 2px solid white;
@@ -101,61 +102,9 @@
     .main{
     margin-left: 1100px;
     margin-top: -20px;
-    position: fixed;
-    }
-    .ddbutton{
-    font-size: 10px;
-    margin-left: 1150px;
-    margin-top: -20px; 
-    border: 1px solid gray;
-    border-radius: 4px;
-    padding: 2px;
-    background-color: #ffffff;
-    cursor: pointer;
-    width: 70px;
-    position: fixed;
-    }
-    .ddbutton:hover{
-    background-color: gray;
-    }
-    .ddmenu{
-    position: absolute;
-    top: 100%;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    padding: 0;
-    margin: 2px 0 0 0;
-    background-color: #ffffff;
-    list-style-type: none;
-    box-shadow: 0 0 6px 0 rgba(0,0,0,0.1);
-    background-color: #ffffff;
-    margin-left: 1050px;
-    margin-top:-500px;
-    }
-    .dropdown {
-    display: inline-block;
     position: relative;
     }
-    .ddmenu li {
-    padding: 10px 20px;
-    cursor: pointer;
-    }
-    .ddmenu li:hover {
-    background-color: black;
-    }
-    .ddbutton:after {
-    content: '';
-    position: absolute;
-    top: 10px;
-    right: 5px;
-    transform: translateY(-50%);
-    width: 3px; 
-    height: 3px; 
-    border-left: 3px solid transparent;
-    border-right: 3px solid transparent;
-    border-top: 3px solid black;
-    margin-left: 600px;
-    }
+
     .dhoni{
     margin-left:300px;
     display: grid;
@@ -240,17 +189,13 @@
 </br></br>
 </div>
 <div class="main">
- <p>Sort By</p>   
-</div> 
-<div class="ddbutton">
- Relevant   
+ <span>Sort By</span>
+<select>
+ <option>PRICE</option> 
+ <option>Recommend</option>
+ <option>Relevant</option>
+</select>
 </div>
-<!----<ul class="ddmenu">
-<li>Price-Range</li>
-<li>New</li>
-<li>Favourite</li>  
-</ul>-->
-</label>
 <div class="dhoni">
 <div class="ms"><div class="discount">Upto 60% off</div><img src="https://images-na.ssl-images-amazon.com/images/I/6108xP9ZOrL._SX425_.jpg" /><p>Jersy</p><p>$800</p><p><span style="text-decoration: line-through">$2000</span></p><a href="#"><i class="fa fa-heart"></i></a></div>
 <div class="ms"><div class="discount">Upto 60% off</div><img src="https://images-na.ssl-images-amazon.com/images/I/6108xP9ZOrL._SX425_.jpg"/><p>Jersy</p><p>$800</p><p><span style="text-decoration: line-through">$2000</span></p><a href="#"><i class="fa fa-heart"></i></a></div>
